@@ -1,4 +1,7 @@
 def animals
+  animals = {
+    
+  }
 
 class Hash
   def keys_of(arguments)
