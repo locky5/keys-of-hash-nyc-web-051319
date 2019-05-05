@@ -3,8 +3,11 @@ def animals
     "red-footed tortoise" => "Panama",
     "aye-aye" => "Madagascar",
     "tomato frog" => "Madagascar",
-    
+    "sugar glider" => "Australia",
+    "kangaroo" => "Australia",
+    "koala" => "Australia"
   }
+end
 
 class Hash
   def keys_of(arguments)
