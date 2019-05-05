@@ -14,6 +14,7 @@ class Hash
     array = []
     arguments.each do |x|
       self.each do |k, v|
-        if x == v
+        if x == v 
+          array << 
   end
 end
