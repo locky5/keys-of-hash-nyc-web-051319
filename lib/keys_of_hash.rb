@@ -13,6 +13,7 @@ class Hash
   def keys_of(arguments)
     array = []
     arguments.each do |place|
-      self.each do 
+      self.each do |k, v|
+        if 
   end
 end
