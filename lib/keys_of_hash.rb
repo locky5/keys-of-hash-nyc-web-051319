@@ -12,8 +12,8 @@ end
 class Hash
   def keys_of(arguments)
     array = []
-    arguments.each do |place|
+    arguments.each do |x|
       self.each do |k, v|
-        if 
+        if x == v
   end
 end
