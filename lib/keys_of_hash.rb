@@ -13,12 +13,12 @@ class Hash
   def keys_of(*arguments) # will gather up any remaining arguments (places)
     array = []
     arguments.each do |x| # x represents the place
-      self.each do |k, v| #
-        if x == v 
-          array << k 
+      self.each do |k, v| # uses the class Hash
+        if x == v # checks if argument place and hash place are the same
+          array << k # will put the animal into the array
         end
       end
     end
-    array
+    array # return array outside of 
   end
 end
