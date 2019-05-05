@@ -10,10 +10,10 @@ def animals
 end
 
 class Hash
-  def keys_of(*arguments) # will gather up any remaining arguments
+  def keys_of(*arguments) # will gather up any remaining arguments (places)
     array = []
-    arguments.each do |x|
-      self.each do |k, v|
+    arguments.each do |x| # x represents the place
+      self.each do |k, v| #
         if x == v 
           array << k 
         end
