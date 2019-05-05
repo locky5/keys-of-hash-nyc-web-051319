@@ -1,6 +1,6 @@
 def animals
   animals = {
-    
+    "red-footed tortoise" => "Panama"
   }
 
 class Hash
