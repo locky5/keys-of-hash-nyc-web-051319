@@ -10,7 +10,7 @@ def animals
 end
 
 class Hash
-  def keys_of(*arguments) # will capture number of arguments into 
+  def keys_of(*arguments) # will gather up any remaining arguments
     array = []
     arguments.each do |x|
       self.each do |k, v|
