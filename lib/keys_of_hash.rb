@@ -13,9 +13,6 @@ class Hash
   def keys_of(arguments)
     array = []
     arguments.each do |place|
-      if place == "Panama"
-        array << "red-footed tortoise"
-      elsif place == "Madagascar"
-        array << 
+      self.each do 
   end
 end
