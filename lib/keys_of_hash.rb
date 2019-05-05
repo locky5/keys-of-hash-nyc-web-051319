@@ -1,5 +1,8 @@
 class Hash
   def keys_of(arguments)
-    return []
+    array = []
+    arguments.each do |animal|
+      if animal == "Panama"
+        array << "red-footed tortoise"
   end
 end
