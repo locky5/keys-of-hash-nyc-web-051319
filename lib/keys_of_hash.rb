@@ -15,6 +15,9 @@ class Hash
     arguments.each do |x|
       self.each do |k, v|
         if x == v 
-          array << 
+          array << k 
+        end
+      end
+    end
   end
 end
