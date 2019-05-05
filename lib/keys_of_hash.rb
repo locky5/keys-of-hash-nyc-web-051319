@@ -19,6 +19,6 @@ class Hash
         end
       end
     end
-    array # return array outside of 
+    array # return array outside of the block
   end
 end
